@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         TextView vi = findViewById(R.id.textView);
         String item = spinn.getSelectedItem().toString();
         if (item.equalsIgnoreCase("first name")){
-            vi.setText(item+ ": Aman");
+            vi.setText(item+ ": Aman mohammed");
             vi.setTextColor(Color.BLUE);
         }
         else if (item.equalsIgnoreCase("last name")){
