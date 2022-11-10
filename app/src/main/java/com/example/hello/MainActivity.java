@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         TextView vi = findViewById(R.id.textView);
         String item = spinn.getSelectedItem().toString();
         if (item.equalsIgnoreCase("first name")){
-            vi.setText(item+ ": Aman mohammed");
+            vi.setText(item+ ": Aman");
             vi.setTextColor(Color.BLUE);
         }
         else if (item.equalsIgnoreCase("last name")){
@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
             vi.setTextColor(Color.RED);
         }
         else if (item.equalsIgnoreCase("city")){
-            vi.setText(item + ": Bollnäs");
+            vi.setText(item + ": Bollnäs Bollnäs");
         }
         else{
             vi.setText(item + ": Hedhamregatan 9b");
