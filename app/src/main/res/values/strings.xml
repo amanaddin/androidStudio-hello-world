@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Hello</string>
+    <string name="hello_text">Hello Aman</string>
+    <string name="click_here">click here</string>
+    <string-array name="arrays">
+        <item>first name</item>
+        <item>last name</item>
+        <item>city</item>
+        <item>street</item>
+    </string-array>
+
+</resources>
